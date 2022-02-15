@@ -1,14 +1,24 @@
-﻿using Microsoft.UI.Xaml.Controls;
+﻿using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 using Windows.Foundation;
 
 namespace WinRTComponent
 {
     public sealed class TestPanel : StackPanel
     {
-        public bool Food { get; set; }
+        // public bool Food { get; set; }
 
+        /*
+        public static Orientation Orientation => Orientation.Vertical;
+
+        public static HorizontalAlignment HorizontalAlignment => HorizontalAlignment.Left;
+
+        public static VerticalAlignment VerticalAlignment => VerticalAlignment.Top;
+        */
+        /*
         public TestPanel() : this(false) { }
         public TestPanel(bool x) { Food = x; }
+        */
         protected override Size MeasureOverride(Size availableSize)
         {
             foreach (var child in Children)

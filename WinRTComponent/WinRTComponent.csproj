@@ -5,10 +5,11 @@
     <RootNamespace>CsWinRTComponent</RootNamespace>
     <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
     <UseWinUI>true</UseWinUI>
-    <Platforms>x64;x86</Platforms>
+    <Platforms>AnyCPU;x64;x86</Platforms>
     <CsWinRTComponent>true</CsWinRTComponent>
     <CsWinRTEnableLogging>true</CsWinRTEnableLogging>
     <WindowsAppContainer>true</WindowsAppContainer>
+    <CsWinRTAuthoring_SkipDependencies>false</CsWinRTAuthoring_SkipDependencies>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CsWASDK_NoWap (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CsWASDK_NoWap (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

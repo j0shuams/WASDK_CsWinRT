@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Assets">
-      <UniqueIdentifier>{ed660438-6781-4c14-8883-5b81f171821b}</UniqueIdentifier>
+      <UniqueIdentifier>{e46cd97a-1373-4794-a11a-68450fa1095d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -53,8 +53,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppxManifest Include="Package.appxmanifest" />
   </ItemGroup>
 </Project>
