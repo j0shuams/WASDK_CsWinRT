@@ -9,12 +9,9 @@
     <CsWinRTComponent>true</CsWinRTComponent>
     <CsWinRTEnableLogging>true</CsWinRTEnableLogging>
     <WindowsAppContainer>true</WindowsAppContainer>
-<<<<<<< Updated upstream
-=======
     <CsWinRTAuthoring_SkipDependencies>false</CsWinRTAuthoring_SkipDependencies>
 	<WindowsAppSDKVerifyWinrtRuntimeVersion>false</WindowsAppSDKVerifyWinrtRuntimeVersion>
 
->>>>>>> Stashed changes
   </PropertyGroup>
 
   <ItemGroup>
